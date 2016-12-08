@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Lightbox Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <header class="progress">
+</header>
+<nav class="navigation flex">
+
+  <div class="small-drop button"><a href="#one" data="1" class="link-text material-icons">looks_one</a></div>
+
+  <div class="smallest-drop button"><a href="#two" data="2" class="link-text material-icons">looks_two</a></div>
+
+  <div class="medium-drop button"><a href="#three" data="3" class="link-text material-icons">looks_3</a></div>
+
+  <div class="large-drop button"><a href="#four" data="4" class="link-text material-icons">looks_4</a></div>
+
+  <div class="largest-drop button"><a href="#five" data="5" class="link-text material-icons">looks_5</a></div>
+</nav>
+<main class="image-layout">
+  <div class="box top left">
+    <input id="toggle1" type="checkbox" data="1" class="toggle" />
+    <div id="one" class="lightbox">
+      <label for="toggle1" class="hit-area"></label><i class="material-icons thumb-image">filter</i>
+    </div>
+  </div>
+  <div class="box top right">
+    <input id="toggle2" type="checkbox" data="2" class="toggle" />
+    <div id="two" class="lightbox">
+      <label for="toggle2" class="hit-area"></label><i class="material-icons thumb-image">filter</i>
+    </div>
+  </div>
+  <div class="box bottom left">
+    <input id="toggle3" type="checkbox" data="3" class="toggle" />
+    <div id="three" class="lightbox">
+      <label for="toggle3" class="hit-area"></label><i class="material-icons thumb-image">filter</i>
+    </div>
+  </div>
+  <div class="box bottom right">
+    <input id="toggle4" type="checkbox" data="4" class="toggle" />
+    <div id="four" class="lightbox">
+      <label for="toggle4" class="hit-area"></label><i class="material-icons thumb-image">filter</i>
+    </div>
+  </div>
+  <div class="box wide">
+    <input id="toggle5" type="checkbox" data="5" class="toggle" />
+    <div id="five" class="lightbox">
+      <label for="toggle5" class="hit-area"></label><i class="material-icons thumb-image">filter</i>
+    </div>
+  </div>
+</main>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
